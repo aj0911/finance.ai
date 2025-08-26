@@ -102,7 +102,7 @@ export default function AIOptimizerPage() {
     null
   );
   const [usingMockData, setUsingMockData] = useState(false);
-  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "AIzaSyAJbO04rOsmTpHCcEODqxLHX5ucqCfYH");
+  const genAI = new GoogleGenerativeAI("AIzaSyAJbO04rOsmTpHCcEODqxLHX5ucqCfYH");
 
   useEffect(() => {
     if (user) {
